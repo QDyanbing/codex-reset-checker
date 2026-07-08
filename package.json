@@ -1,0 +1,31 @@
+{
+  "name": "codex-reset-checker",
+  "version": "0.1.0",
+  "description": "Check local Codex rate-limit reset credits from the ChatGPT backend API.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/QDyanbing/codex-reset-credits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QDyanbing/codex-reset-credits/issues"
+  },
+  "homepage": "https://github.com/QDyanbing/codex-reset-credits#readme",
+  "bin": {
+    "codex-reset-checker": "bin/codex-reset-checker.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "codex",
+    "chatgpt",
+    "rate-limit",
+    "cli"
+  ],
+  "license": "MIT"
+}
